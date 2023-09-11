@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hisse Alım Satım</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hisse Alım Satım</h1>
+        <div class="stock-info">
+            <h2>Hisse Bilgileri</h2>
+            <p>Hisse Adı: ABC Inc.</p>
+            <p>Fiyat: $100</p>
+        </div>
+        <div class="transaction">
+            <h2>İşlem Yap</h2>
+            <input type="number" id="quantity" placeholder="Miktar">
+            <button id="buy-button">Al</button>
+            <button id="sell-button">Sat</button>
+        </div>
+        <div class="transaction-history">
+            <h2>İşlem Geçmişi</h2>
+            <ul id="transaction-list">
+                <!-- İşlem geçmişi burada listelenebilir -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="hisse.js"></script>
+</body>
+</html>
